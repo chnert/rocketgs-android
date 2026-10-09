@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- USB-serial chips used on Arduino Uno/Nano boards and clones (vendor ids in decimal). -->
+<resources>
+    <usb-device vendor-id="6790" />   <!-- 0x1A86 WCH CH340/CH341: most Uno/Nano clones -->
+    <usb-device vendor-id="9025" />   <!-- 0x2341 Arduino (genuine Uno: ATmega16U2, CDC) -->
+    <usb-device vendor-id="10755" />  <!-- 0x2A03 Arduino.org -->
+    <usb-device vendor-id="1027" />   <!-- 0x0403 FTDI -->
+    <usb-device vendor-id="4292" />   <!-- 0x10C4 Silicon Labs CP210x -->
+</resources>

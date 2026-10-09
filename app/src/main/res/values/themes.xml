@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Black window behind Compose so there is no white flash at start. -->
+    <style name="Theme.RocketGS" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/console_bg</item>
+        <item name="android:statusBarColor">@color/console_bg</item>
+        <item name="android:navigationBarColor">@color/console_bg</item>
+    </style>
+    <color name="console_bg">#050A06</color>
+    <color name="console_green">#7CFF9B</color>
+</resources>
